@@ -1,0 +1,6 @@
+CREATE TABLE tbl_buku(
+id_buku INT(11) PRIMARY KEY AUTO_INCREMENT,
+judul VARCHAR(255),
+penerbit VARCHAR(255),
+pengarang VARCHAR(255)
+)ENGINE=INNODB;
